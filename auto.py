@@ -7,14 +7,16 @@ pg.typewrite('https://web.telegram.org/a/')
 time.sleep(1)
 pg.press('enter')
 time.sleep(2)
-pg.leftClick(170,225)
+pg.leftClick(270,350)
 time.sleep(2)
-pg.leftClick(560, 860)
-time.sleep(2)
+pg.leftClick(360, 795)
+time.sleep(4)
 while True:
-    target_position = pg.position(500, 725)    
-    pg.doubleClick(target_position)
-    cr = pg.position()
-    if cr != target_position :
-        break
+    for _ in range(1000):
+        pos = pg.position(470, 750)    
+        pg.doubleClick(pos)
+    time.sleep(5)
+    pos = pg.position(470, 800)
+    pg.leftClick(pos)
+    
 
