@@ -10,7 +10,7 @@ time.sleep(1)
 pg.press('enter')
 time.sleep(1)
 
-#Chỉnh kích thước sang toàn màn hình nếu chưa full
+#Chỉnh kích thước Chrome sang toàn màn hình nếu chưa full
 pg.hotkey('alt', 'space')
 time.sleep(1)
 pg.press('x')
