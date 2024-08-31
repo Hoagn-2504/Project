@@ -32,7 +32,7 @@ time.sleep(1)
 pg.press('enter')
 time.sleep(1)
 pg.leftClick(1070, 830)
-time.sleep(4)
+time.sleep(5)
 
 #Auto click
 while True:
