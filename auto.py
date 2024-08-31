@@ -25,7 +25,7 @@ time.sleep(1)
 #Mở berasig
 pg.position(250,145)
 time.sleep(1)
-pg.leftClick(250,145)
+pg.doubleClick(250,145)
 time.sleep(1)
 pg.write('berasig bot')
 time.sleep(1)
