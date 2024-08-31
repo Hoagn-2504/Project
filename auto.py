@@ -17,7 +17,7 @@ pg.press('x')
 time.sleep(2)
 
 #Đi đến trang Telegram
-pg.write('https://web.telegram.org')
+pg.typewrite('https://web.telegram.org/a/')
 time.sleep(1)
 pg.press('enter')
 time.sleep(2)
