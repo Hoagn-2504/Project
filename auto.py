@@ -17,7 +17,7 @@ pg.press('enter')
 time.sleep(2)
 pg.leftClick(160,210)
 time.sleep(2)
-pg.leftClick(1070, 840)
+pg.leftClick(1070, 830)
 time.sleep(4)
 while True:
     for _ in range(2000):
