@@ -33,8 +33,9 @@ pg.press('enter')
 time.sleep(1)
 pg.leftClick(1070, 830)
 time.sleep(4)
+
+#Auto click
 while True:
-    #Auto click
     for _ in range(2000):
         pos = pg.position(700, 600)    
         pg.doubleClick(pos)
